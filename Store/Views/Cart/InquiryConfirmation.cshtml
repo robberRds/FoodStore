@@ -1,0 +1,17 @@
+﻿@model Store_Models.OrderHeader
+
+<div class="text-center">
+
+    @if (Model!=null)
+    {
+        <h1 class="text-info"> Замовлення створено</h1>
+        <p>Замовлення #@Model.Id було створено успішно</p>
+    }
+    else
+    {
+        <h1 class="text-info">Підтвердження запиту</h1>
+
+        <p>Ми отримали ваш запит і незабаром зв'яжемося з вами!</p>
+    }
+    <img src="/images/patio.jpg" width="80%" />
+</div>
